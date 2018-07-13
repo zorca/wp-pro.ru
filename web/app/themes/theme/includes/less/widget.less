@@ -1,0 +1,156 @@
+.widget{
+	&.widget_ab_site_stats{
+		.stats-item{
+			i{
+			    color: #aaa;
+			    float: left;
+			    font-size: 30px;
+			    margin-right: 20px;
+			    padding: 2px 0;
+			}
+			span{
+				display: block;
+				&:first-child{
+					font-weight: bold;
+					margin-bottom: 4px;
+				}
+			}
+		}
+	}
+	.ap-stats-widget{
+	    background-color: #fff;
+	    border: medium none;
+		li{
+			font-size: 14px;
+		    list-style: outside none none;
+		    margin: 0;
+		    padding: 12px 15px;
+
+		    .stat-label {
+			    display: inline-block;
+			    font-size: 14px;
+			    font-weight: 600;
+			    width: 110px;
+			}
+			.stat-value {
+			    color: @color3;
+			    float: none;
+			}
+		}
+	}
+	&-title{
+	    font-size: 16px;
+	    font-weight: bold;
+	    margin-top: 0;
+	    text-transform: uppercase;
+	}
+	.view-all{
+		border: 1px solid #ddd;
+	    border-radius: 2px;
+	    color: @color4;
+	    display: inline-block;
+	    font-size: 11px;
+	    margin-left: 10px;
+	    padding: 3px 6px;
+	    vertical-align: middle;
+	    font-weight: normal;
+	    text-transform: initial;
+	    color: @color3;
+	}
+	&-inner, .ap-widget-inner {
+	    background: #fff none repeat scroll 0 0;
+	    border: 2px solid #eee;
+	    border-radius: 3px;
+	    padding: 10px 15px;
+	}
+
+	&.widget_recent_entries{
+		.nav > li{
+		    border-bottom: 1px solid #eee;
+		    font-size: 13px;
+		    padding: 10px 5px;
+			> a{
+			    display: inline-block;
+			    margin: 0;
+			    padding: 0;
+			    &:hover{
+			    	background: none;
+			    }
+			}
+			.post-date{
+				display: block;
+				font-size: 12px;
+				color: #888;
+			}
+		}
+	}
+}
+
+.site-stats-pos{
+    background: #fff none repeat scroll 0 0;
+    border-top: 2px solid #eee;
+    margin-top: 0;
+	.widget{
+		margin-bottom: 0;
+	}
+	.container{
+		padding: 20px 10px;
+	}
+	.stats-item{
+	    border-left: 1px solid #eee;
+	    float: left;
+	    font-size: 16px;
+	    line-height: 100%;
+	    padding-left: 15px;
+	    width: 25%;
+	    &:last-child{
+	    	border-right: solid 1px #eee;
+	    }
+	}
+}
+
+#ap-categories-widget.ap-cat-wid{
+	> li a{
+		display: block;
+    	font-size: 13px;
+    	font-weight: 600;
+		color: @color3;
+	}
+	.ap-cat-count {
+	    font-size: 13px;
+	}
+	li .ap-cat-image{
+		position: relative;
+		height: 40px;
+		width: 40px;
+		.ap-category-icon {
+			text-shadow: 0 1px 0 rgba(0, 0, 0, 0.27);
+		}
+	}
+}
+.subscribe-widget{
+	.form-control{
+	    border: medium none;
+	    height: 44px;
+	    margin-bottom: 6px;
+	    padding: 8px 15px;
+	}
+}
+.widget_anspress_breadcrumbs_widget .widget-inner{
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+.search-form label {
+    margin-bottom: 0;
+    vertical-align: top;
+    .form-control {
+	    height: 36px;
+	    padding: 8px;
+	}
+}
+
+.widget_ap_breadcrumbs_widget {
+    margin-top: -15px;
+}

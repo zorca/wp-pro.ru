@@ -1,0 +1,239 @@
+@import "../variables.less";
+@import "../mixins.less";
+
+@import "question.less";
+@import "category.less";
+@import "tag.less";
+@import "users.less";
+@import "user.less";
+@import "notification.less";
+@import "widget.less";
+@import "activities.less";
+
+#anspress{
+	font-family: @font-family;
+	background:none;
+	.ap-list-head {
+		background: none;
+	    border: medium none;
+	    margin-bottom: 10px;
+	    padding: 0;
+	    #ap-search-form, .ap-btn-ask{
+	    	display: none;
+	    }
+	}
+	.ap-filter{
+		float: left;
+	}
+	.ap-questions-item{
+		padding: 15px;
+		border-bottom: 1px solid #f5f5f5;
+    	border-radius: 0;
+	}
+	.ap-questions, .ap-answers {
+	    background: #fff none repeat scroll 0 0;
+	    border: 2px solid @color2;
+	    border-radius: 3px;
+	}
+	#ap-question-sorting{
+		float: left;
+		border: 2px solid #ddd;
+	}
+	#ap-question-sorting .ap-dropdown-toggle{
+	    background: #fff none repeat scroll 0 0;
+	    color: #333;
+	    font-size: 14px;
+	    font-weight: normal;
+	    padding: 6px 15px;
+	}
+	.ap-questions-title{
+		font-size: 15px;
+		> a{
+			color: @color3;
+		}
+	}
+	.ap-display-meta-item{
+		.question-categories a, .question-tags a{
+			margin-right: 4px;
+		}
+	}
+	.ap-pagination{
+		span{
+			background-color: #fcfcfc;
+		}
+		a{
+			background-color: #fff;
+		}
+		span, a{
+			border: solid 2px #eee;
+		}
+	}
+	.ap-user-posts h3{
+		margin-bottom: 10px;
+		border: none;
+	}
+	.ap-form-control {
+	    background: #fcfcfc none repeat scroll 0 0;
+	    border-width: 1px;
+	    box-shadow: none;
+	    height: 42px;
+	}
+
+	label > input[type="checkbox"] {
+	    margin-top: 8px !important;
+	}
+	#ap-ask-page .ap-a-cells{
+	    margin: 0;
+	    padding: 10px;
+	    .ap-form{
+	    	padding: 15px;
+	    }
+	}
+	#answer-form-c .ap-form-head {
+	    background: #fcfcfc;
+	    margin: -20px -20px 20px;
+    }
+	.ap-tab-nav li > a {
+	    color: @color3;
+	    font-size: 15px;
+	    font-weight: 600;
+	    padding: 7px 15px;
+	}
+	.ap-taxo-detail {
+	    background: #fff none repeat scroll 0 0;
+	    border: 2px solid #eee;
+	    .entry-title {
+		    margin-top: 0;
+		}
+
+		.ap-taxo-description {
+		    font-size: 16px;
+		}
+	}
+	.hentry{
+		background: none;
+		padding: 0;
+	}
+	.ap-please-login {
+	    background: #fff none repeat scroll 0 0;
+	    border: 2px solid #eee;
+	    display: block;
+	    margin: 20px 0;
+	    padding: 25px;
+	    text-align: inherit;
+	    > h3 {
+		    margin-top: 0;
+		}
+		.ap-login-title, .wp-social-login-connect-with{
+		    display: block;
+		    font-size: 16px;
+		    margin-bottom: 10px;
+		}
+		.wp-social-login-provider-list{
+			padding: 0;
+		}
+		.btn{
+		    background: #fff none repeat scroll 0 0;
+		    color: @color3;
+		    margin-right: 4px;
+		    padding: 4px 15px;
+		}
+		.log-s-inner, .wp-social-login-widget{
+			float: left;
+		}
+
+		.wp-social-login-widget{
+		    border-left: 2px solid #eee;
+		    margin-left: 30px;
+		    padding-left: 30px;
+		}
+		.ap-login-action {
+		    display: table;
+		    margin: 0 auto;
+		}
+	}
+	.ap-q-left .ap-please-login{
+		margin-left: 60px;
+    	margin-right: 40px;
+    	margin-top: 20px;
+	}
+	.comment-respond {
+	    background: #fff none repeat scroll 0 0;
+	    border: 2px solid #eee;
+	    padding: 10px;
+	}
+	.ap-breadcrumbs > li a {
+	    color: #838485;
+	    font-weight: 300;
+	}
+	.ap-tag-wrap {
+		background: #fff;
+	}
+	#form_question {
+		background: #fff;
+		padding: 20px;
+		border: solid 1px #eee;
+		border-radius: 4px;
+	}
+}
+.ap-login{
+	margin-top: 20px;
+    max-width: 850px;
+    margin: 40px auto 0;
+	.ap-cell{
+		margin-left: 0 !important;
+	}
+	.login-reg-box {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+		> div{
+			padding: 20px;
+			display: block;
+			width: 50%;
+			max-width: 305px;
+		}
+		h3{
+			margin-top: 0;
+			font-size: 18px;
+			font-weight: 600;
+		}
+		.tml-registration-confirmation {
+			display: table-cell;
+			margin: 0;
+			padding-right: 17px;
+			line-height: 16px;
+			font-size: 13px;
+			color: #777;
+		}
+		.tml-submit-wrap {
+			display: table-cell;
+			margin: 0;
+			vertical-align: top;
+			input[type="submit"]{
+				margin: 0;
+			}
+		}
+	}
+	.wp-social-login-widget {
+		border-bottom: solid 1px #eee;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+	.tml .wp-social-login-widget{
+		display: none;
+	}
+	.tml.tml-login {
+		box-shadow: none;
+		padding: 0;
+		min-width: 0;
+		margin: 0;
+		display: block;
+	}
+	.tml.tml-register{
+		margin: 0;
+	}
+	.tml .message{
+		display: none;
+	}
+}

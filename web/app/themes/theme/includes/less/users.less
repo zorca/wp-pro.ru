@@ -1,0 +1,71 @@
+.ab-users{
+  border: 2px solid #eee;
+  background: #fff;
+  &-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: solid 1px #eee;
+
+    > div{
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+
+    &:nth-child(2n) {
+      background: #f7f7f7;
+    }
+
+    .ab-users-name {
+      display: block;
+      font-weight: bold;
+      color: inherit;
+    }
+
+    .ab-users-avatar{
+      float: left;
+      display: block;
+      margin-right: 15px;
+    }
+
+    a.ab-users-rep {
+    }
+  }
+  &-stat{
+    > span{
+      display: block;
+      font-size: 13px;
+    }
+    >i{
+      display: block;
+      float: left;
+      font-size: 20px;
+      margin-right: 12px;
+      color: #bdbdbd;
+      padding: 2px;
+      border-right: solid 1px #ddd;
+      padding-right: 10px;
+
+      &.apicon-question{
+        color: #f44336;
+      }
+
+      &.apicon-answer{
+        color: #4CAF50;
+      }
+
+      &.apicon-comments{
+        color: #8b5ae4;
+      }
+    }
+  }
+  .stat-first {
+    font-weight: bold;
+  }
+
+  &-comments.ab-users-stat {
+    flex-basis: 165px;
+    flex-grow: 0;
+  }
+}
