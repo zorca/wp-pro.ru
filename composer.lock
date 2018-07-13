@@ -493,6 +493,26 @@
             "homepage": "https://wordpress.org/plugins/cyr3lat/"
         },
         {
+            "name": "wpackagist-plugin/loco-translate",
+            "version": "2.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/loco-translate/",
+                "reference": "tags/2.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/loco-translate/"
+        },
+        {
             "name": "wpackagist-plugin/query-monitor",
             "version": "3.0.1",
             "source": {

@@ -10,6 +10,7 @@
     "wpackagist-plugin/query-monitor": "3.0.1",
     "wpackagist-plugin/cyr3lat": "3.5",
     "wpackagist-plugin/wordpress-social-login": "2.3.3",
-    "wpackagist-plugin/theme-my-login": "7.0.9"
+    "wpackagist-plugin/theme-my-login": "7.0.9",
+    "wpackagist-plugin/loco-translate":"2.1.4"
   }
 }

@@ -40,7 +40,7 @@ msgstr ""
 
 #: anspress.php:18 templates/anspress.php:18
 msgid "Upload a cover"
-msgstr "Загрузка картинки"
+msgstr "Загрузить картинку"
 
 #: anspress.php:19 templates/anspress.php:19
 msgid "Upload cover"
