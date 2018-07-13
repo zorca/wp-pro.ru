@@ -1,91 +1,91 @@
 a {
-  color: #ff7545;
+  color: #62929e;
 }
 a:hover {
-  color: #ff7545;
+  color: #62929e;
 }
 .site-nav .btn-header-ask {
-  border-color: #ff7545;
-  color: #ff7545;
+  border-color: #62929e;
+  color: #62929e;
 }
 .site-nav .navbar-nav li.active > a,
 .site-nav .navbar-nav li.open > a {
-  color: #ff7545;
+  color: #62929e;
 }
 .ap-tab-nav li.ap-menu-logout.active a {
-  color: #ff7545;
+  color: #62929e;
 }
 .ap-tab-nav li.ap-menu-logout.active a i {
-  color: #ff7545;
+  color: #62929e;
 }
 .ap-tab-nav li.ap-menu-logout.active a a:hover {
-  background: #ff7545;
+  background: #62929e;
 }
 .ap-tab-nav li.ap-menu-logout.active a > a span {
-  background: #ff7545;
+  background: #62929e;
 }
 .site-header-cover {
-  background-color: #ff7d4f;
+  background-color: #6896a2;
 }
 .for-answerer .btn-answer {
-  color: #ff7545;
+  color: #62929e;
 }
 #category-dropdown.open .dropdown-toggle {
-  color: #ff7545;
+  color: #62929e;
 }
 #menu-toggle {
-  color: #ff7545;
+  color: #62929e;
 }
 .tml input[type="text"]:hover,
 .tml input[type="password"]:hover,
 .tml input[type="text"]:focus,
 .tml input[type="password"]:focus {
-  border-color: #ffc1ab;
+  border-color: #a1bec5;
 }
 .tml .submit > input {
-  background: #ffe7de;
-  border: 2px solid #ffc1ab;
+  background: #c1d4d8;
+  border: 2px solid #a1bec5;
 }
 .tml .submit > input:hover {
-  border-color: #ff9b78;
+  border-color: #82a8b1;
 }
 .sticky {
-  border-color: #ffc1ab;
+  border-color: #a1bec5;
 }
 .ap-btn-follow {
-  border-color: #ffae92;
+  border-color: #91b3bb;
 }
 .ap-btn-follow.active {
-  background: #ffc1ab;
+  background: #a1bec5;
 }
 .border-box {
-  border-color: #ffae92;
+  border-color: #91b3bb;
 }
 #anspress #ap-question-sorting .ap-dropdown-toggle.active {
-  background: #ff7545;
+  background: #62929e;
 }
 #anspress .bootstrap-tagsinput .tag {
-  background: #ff7545;
+  background: #62929e;
 }
 #anspress .ap-taxo-detail .ap-tax-item-count {
-  background: #ff7545;
+  background: #62929e;
 }
 #anspress .ap-breadcrumbs > li a:hover {
-  color: #ff7545;
+  color: #62929e;
 }
 #anspress .ap-q-actions > li.ap-post-action.ap-action-select_answer > a:hover {
-  background-color: #ff7545;
+  background-color: #62929e;
 }
 #anspress .ap-answers-tab li.active a:hover {
-  background-color: #ff9b78;
+  background-color: #82a8b1;
 }
 #anspress .ap-tags-item .term-title {
-  background-color: #ffd4c4;
-  border-color: #ff7545;
+  background-color: #b1c9cf;
+  border-color: #62929e;
 }
 #anspress .ap-reputation-ref strong {
-  color: #ff7545;
+  color: #62929e;
 }
 #anspress .ap-users .ap-btn-follow {
-  border-color: #ff7545;
+  border-color: #62929e;
 }
