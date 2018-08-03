@@ -37,6 +37,7 @@
     "composer/installers": "^1.4",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.8",
+    "wikimedia/composer-merge-plugin": "^1.4",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0"
   },
