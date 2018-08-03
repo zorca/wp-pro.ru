@@ -1,0 +1,45 @@
+.rtl .navbar-header,
+.rtl .navbar-nav {
+  float: right;
+}
+.rtl .navbar-left,
+.rtl .pull-left {
+  float: right !important;
+}
+.rtl .pull-right,
+.rtl #top-right {
+  float: left !important;
+}
+.rtl .site-nav .btn-header-ask,
+.rtl .top-users .ap-btn-follow {
+  float: left;
+}
+.rtl .site-nav .btn-header-ask {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.rtl .widget.widget_ab_site_stats .stats-item i {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+.rtl .top-users-avatar {
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+.rtl .col-md-1,
+.rtl .col-md-2,
+.rtl .col-md-3,
+.rtl .col-md-4,
+.rtl .col-md-5,
+.rtl .col-md-6,
+.rtl .col-md-7,
+.rtl .col-md-8,
+.rtl .col-md-9,
+.rtl .col-md-10,
+.rtl .col-md-11,
+.rtl .col-md-12 {
+  float: right;
+}
+/*# sourceMappingURL=rtl.css.map */

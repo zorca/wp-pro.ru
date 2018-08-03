@@ -1,0 +1,35 @@
+{
+  "name": "askbug",
+  "version": "3.1.8",
+  "description": "Askbug",
+  "main": "Gruntfile.js",
+  "private": true,
+  "devDependencies": {
+    "grunt": "",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-compress": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-jshint": "",
+    "grunt-contrib-less": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "grunt-csscomb": "",
+    "grunt-exec": "^1.0.1",
+    "grunt-git": "",
+    "grunt-phpdocumentor": "",
+    "grunt-phplint": "",
+    "grunt-phpunit": "",
+    "grunt-replace": "",
+    "grunt-version": "",
+    "grunt-wp-i18n": "",
+    "grunt-wp-readme-to-markdown": "",
+    "less-plugin-autoprefix": "^1.5.1",
+    "load-grunt-tasks": "",
+    "time-grunt": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Aryan",
+  "license": "GPL 3+"
+}

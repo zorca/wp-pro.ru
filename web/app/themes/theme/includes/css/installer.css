@@ -1,0 +1,65 @@
+#askbug-installer {
+  background: #ffffff none repeat scroll 0 0;
+  border-left: 4px solid #333;
+  height: 100%;
+  padding: 43px 15px 15px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+}
+#askbug-installer h3 {
+  margin-bottom: 7px;
+  text-align: center;
+}
+#askbug-installer .sub-desc {
+  display: block;
+  font-weight: 300;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#askbug-installer .steps li {
+  margin: 0;
+}
+#askbug-installer .steps li:last-child a {
+  border-bottom: 2px solid #eee;
+}
+#askbug-installer .steps a {
+  border-top: 1px solid #eee;
+  color: #777777;
+  display: block;
+  font-size: 11px;
+  padding: 15px 0;
+  text-decoration: none;
+}
+#askbug-installer .steps a b {
+  display: block;
+  color: #333;
+}
+#askbug-installer .steps .step-key {
+  background: #eee none repeat scroll 0 0;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  font-weight: 600;
+  height: 35px;
+  line-height: 33px;
+  margin-right: 15px;
+  text-align: center;
+  width: 35px;
+}
+#askbug-installer .steps .right-angle {
+  background: #eee none repeat scroll 0 0;
+  display: block;
+  float: right;
+  font-size: 27px;
+  font-style: normal;
+  height: 35px;
+  line-height: 30px;
+  text-align: center;
+  width: 35px;
+}
+#askbug-installer .steps .done .right-angle::before {
+  content: "\002714";
+}
+/*# sourceMappingURL=installer.css.map */

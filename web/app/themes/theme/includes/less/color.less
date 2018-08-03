@@ -1,0 +1,107 @@
+// Theme colors.
+
+@import "variables.less";
+
+a {
+	color: @color1;
+	&:hover {
+		color: @color1;
+	}
+}
+.site-nav{
+  .btn-header-ask {
+    border-color: @color1;
+    color: @color1;
+  }
+  .navbar-nav li{
+    &.active > a, &.open > a{
+      color: @color1;
+    }
+  }
+}
+
+.ap-tab-nav li.ap-menu-logout.active a{
+  color: @color1;
+  i{
+    color: @color1;
+  }
+  a:hover{
+	  background: @color1;
+  }
+  > a span{
+    background: @color1;
+  }
+}
+
+.site-header-cover{
+	background-color: lighten(@color1, 2%);
+}
+.for-answerer .btn-answer {
+  color: @color1;
+}
+
+#category-dropdown.open .dropdown-toggle{
+  color: @color1;
+}
+#menu-toggle {
+  color: @color1;
+}
+.tml{
+  input[type="text"], input[type="password"]{
+    &:hover, &:focus{
+      border-color: lighten(@color1, 20%);
+    }
+  }
+  .submit > input {
+    background: lighten(@color1, 30%);
+    border: 2px solid lighten(@color1, 20%);
+    &:hover{
+      border-color: lighten(@color1, 10%);
+    }
+  }
+}
+.sticky{
+  border-color : lighten(@color1, 20%);
+}
+.ap-btn-follow {
+	border-color: lighten(@color1, 15%);
+	&.active {
+		background: lighten(@color1, 20%);
+	}
+}
+.border-box {
+	border-color: lighten(@color1, 15%);
+}
+
+#anspress{
+  #ap-question-sorting .ap-dropdown-toggle.active{
+	  background:@color1;
+  }
+  .bootstrap-tagsinput{
+    .tag{
+      background: @color1;
+    }
+  }
+  .ap-taxo-detail .ap-tax-item-count{
+    background: @color1;
+  }
+  .ap-breadcrumbs > li a:hover{
+    color: @color1;
+  }
+  .ap-q-actions> li.ap-post-action.ap-action-select_answer>a:hover{
+    background-color: @color1;
+  }
+  .ap-answers-tab li.active a:hover{
+    background-color: lighten(@color1, 10%);
+  }
+  .ap-tags-item .term-title {
+    background-color: lighten(@color1, 25%);
+    border-color: @color1;
+  }
+  .ap-reputation-ref strong{
+		color: @color1;
+  }
+  .ap-users .ap-btn-follow{
+		border-color: @color1;
+  }
+}

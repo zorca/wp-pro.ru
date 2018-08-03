@@ -1,0 +1,211 @@
+body {
+	background: @body-color;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary.focus, .btn-primary:focus{
+	color: #fff;
+	background-color: @color1;
+	border-color: @color1;
+}
+
+.btn-primary, .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: @color1;
+	border-color: @color1;
+}
+
+/* First fixing the dropdown menu.
+ * Most stuff is handled by the walker, but some styles need to be added too.
+ * Here we are removing the ">" from the original bootstrap styles, so it works for 2nd and 3rd level dropdown too..
+ * (actually not cool to use more than 1 level dropdown, but if YOU or your users want to do this, it won't break the layout now ;)  */
+
+.dropdown-menu li a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: nowrap;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #357ebd;
+	background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
+	background-image: -webkit-linear-gradient(top, #428bca, 0%, #357ebd, 100%);
+	background-image: -moz-linear-gradient(top, #428bca 0%, #357ebd 100%);
+	background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+}
+
+.dropdown-menu ul {
+	list-style: none;
+}
+
+
+/* Some modified padding for the bootstrap container.
+ * Now you can make many styles of design easily.
+ * Try with giving the .container class just a background colour and have a look. ;)
+ */
+
+.container {
+	padding: 0 15px 15px 15px;
+}
+
+.btn {
+	border: none;
+	border-radius: 2px;
+}
+
+.form-control,
+.comment-respond input[type="text"] {
+	background-color: #fff;
+	background-image: none;
+	border: 2px solid #ccc;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #555555;
+	display: block;
+	font-size: 14px;
+	height: 40px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	width: 100%;
+}
+
+.ap-avatar img {
+	border-radius: 2px;
+}
+
+.btn {
+	background: #fff;
+	border: solid 2px #ddd;
+	color: @color3;
+	font-weight: 600;
+	&:hover {
+		background-color: #eee;
+		color: @color3;
+		border-color: #aaa;
+	}
+}
+
+.ap-btn-follow {
+	border: solid 2px;
+	border-radius: 2px;
+	&.active {
+		color: @color3;
+	}
+}
+
+.alert {
+	background: none;
+	border-width: 2px;
+}
+
+.border-box {
+	background: #fff none repeat scroll 0 0;
+	border: solid 2px;
+	border-radius: 3px;
+	padding: 15px;
+	text-align: center;
+	>h3 {
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+	>p {
+		font-size: 14px;
+	}
+}
+
+.block-c,
+.ap-reputation .ap-user-rep,
+.ap-reputation-graph,
+.ap-profile-form,
+.ap-notification-list {
+	background: #fff none repeat scroll 0 0;
+	border: 2px solid @color2;
+	border-radius: 3px;
+	padding: 15px;
+	&.margin-bottom {
+		margin-bottom: 30px;
+	}
+}
+
+label {
+	font-size: 14px;
+	font-weight: 600;
+	color: #888;
+}
+
+h1,
+.h1 {
+	font-size: 32px;
+}
+
+.wp-caption {
+	background: #eee none repeat scroll 0 0;
+	padding: 3px 10px;
+	border: none;
+	margin-bottom: 10px;
+	max-width: 100%;
+	border-radius: 3px;
+	img {
+		border-radius: 3px;
+	}
+}
+.avatar{
+	border-radius: 2px;
+}
+
+@-webkit-keyframes flexGrow {
+  to {
+    flex: 1;
+  }
+}
+@-o-keyframes flexGrow {
+  to {
+    flex: 1;
+  }
+}
+@keyframes flexGrow {
+  to {
+    flex: 1;
+  }
+}
+
+@-webkit-keyframes flexShrink {
+  to {
+    flex: .01;
+    flex: .00001;
+  }
+}
+@-o-keyframes flexShrink {
+  to {
+    flex: .01;
+    flex: .00001;
+  }
+}
+@keyframes flexShrink {
+  to {
+    flex: .01;
+    flex: .00001;
+  }
+}
+

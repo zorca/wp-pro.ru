@@ -1,0 +1,52 @@
+.top-users{
+    &-item{
+        border-bottom: 1px solid #f4f4f4;
+        padding: 10px 0;
+        &:last-child {
+            border-bottom: medium none;
+        }
+    }
+    &-avatar{
+        float:left;
+        margin-right: 15px;
+    }
+    &-name{
+        color: @color3;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 100%;
+        max-width: 150px;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-top: 3px;
+        span{
+            color: #777;
+            font-size: 13px;
+            font-weight: normal;
+            margin-left: 2px;
+            padding: 0 5px;
+        }
+    }
+    &-rep{
+        border-radius: 2px;
+        font-size: 13px;
+        i{
+            font-style: normal;
+        }
+    }
+    .ap-btn-follow {
+        color:@color3;
+        float: right;
+        font-size: 11px;
+        padding: 3px 7px;
+        text-align: center;
+
+    }
+}
+#anspress .top-users-name{
+    color: @color3;
+}
+
+
+

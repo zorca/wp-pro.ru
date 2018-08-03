@@ -1,0 +1,916 @@
+# <!=Copyright (C) 2018 Rahul Aryan
+# This file is distributed under the GNU General Public License v3.0 /.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: AskBug 3.1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2018-07-03 02:51:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: 404.php:15
+msgid "404"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! Something went wrong here."
+msgstr ""
+
+#: 404.php:20
+msgid "Nothing could be found at this location. Maybe try a search?"
+msgstr ""
+
+#: anspress/addons/reputation/index.php:24
+msgid "Load More"
+msgstr ""
+
+#: anspress/addons/user/about-about.php:20
+msgid "No \"about me\" yet.."
+msgstr ""
+
+#: anspress/addons/user/about-about.php:25
+msgid "Registered"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:28 includes/user-metabox.php:158
+msgid "Answers"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:30
+msgid "%d Best answers"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:40 footer.php:48
+#: includes/admin/auto-installer.php:44 includes/user-metabox.php:145
+msgid "Questions"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:42
+msgid "%d Unanswered"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:52
+msgid "Comments"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:54
+msgid "%d Unapproved"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:64 includes/user-metabox.php:133
+msgid "Reputation"
+msgstr ""
+
+#: anspress/addons/user/about-counts.php:66
+msgid "%d This month"
+msgstr ""
+
+#: anspress/addons/user/about-votes.php:23
+msgid "Received up votes"
+msgstr ""
+
+#: anspress/addons/user/about-votes.php:24
+msgid "Received down votes"
+msgstr ""
+
+#: anspress/addons/user/about-votes.php:25
+msgid "Casted up votes"
+msgstr ""
+
+#: anspress/addons/user/about-votes.php:26
+msgid "Casted down votes"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:44 warning.php:82
+msgid "Username"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:53
+msgid "Email"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:62
+msgid "First Name"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:71
+msgid "Last Name"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:80
+msgid "Nickname"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:89
+msgid "Display Name"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:104
+msgid "Website"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:113
+msgid "Description"
+msgstr ""
+
+#: anspress/addons/user/edit-profile.php:122
+msgid "Update Profile"
+msgstr ""
+
+#: anspress/addons/user/index.php:23
+msgid "Upload an avatar"
+msgstr ""
+
+#: anspress/addons/user/index.php:24
+msgid "Upload avatar"
+msgstr ""
+
+#: anspress/addons/user/index.php:37
+msgid "%s Rep."
+msgstr ""
+
+#: anspress/single-question.php:61
+msgid "Posted %s"
+msgstr ""
+
+#: anspress/users.php:37 parts/top-users.php:31
+msgid "%d Reputation"
+msgstr ""
+
+#: anspress/users.php:42
+msgid "%d Question"
+msgid_plural "%d Questions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: anspress/users.php:43
+msgid "%d Unanswered Question"
+msgid_plural "%d Unanswered Questions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: anspress/users.php:48
+msgid "%d Answer"
+msgid_plural "%d Answers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: anspress/users.php:49
+msgid "%d Best Answer"
+msgid_plural "%d Best Answers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: anspress/users.php:54
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: anspress.php:18 templates/anspress.php:18
+msgid "Upload a cover"
+msgstr ""
+
+#: anspress.php:19 templates/anspress.php:19
+msgid "Upload cover"
+msgstr ""
+
+#: archive.php:33
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:41
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:44
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:47
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:50
+msgid "Asides"
+msgstr ""
+
+#: archive.php:53
+msgid "Images"
+msgstr ""
+
+#: archive.php:56
+msgid "Videos"
+msgstr ""
+
+#: archive.php:59
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:62
+msgid "Links"
+msgstr ""
+
+#: archive.php:65 sidebar.php:20
+msgid "Archives"
+msgstr ""
+
+#: comments.php:30 content.php:73
+msgid "1 Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:61
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:78
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:79
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:80
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:81
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:83
+msgid "Start typing..."
+msgstr ""
+
+#: comments.php:86
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+"tags and attributes:"
+msgstr ""
+
+#: content-page.php:21 content-single.php:23 content.php:64 image.php:60
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:26 content-single.php:64 content.php:76 image.php:34
+#: image.php:78 includes/template-tags.php:73
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:32 content-single.php:35 content.php:26 content.php:36
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: content-single.php:40
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
+"to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:42
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:48
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a "
+"href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:50
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content.php:30
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:40
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:61
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:73
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:73
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:50
+msgid "Active questions"
+msgstr ""
+
+#: footer.php:51
+msgid "New questions"
+msgstr ""
+
+#: footer.php:52
+msgid "Most viewed questions"
+msgstr ""
+
+#: footer.php:53
+msgid "Top voted questions"
+msgstr ""
+
+#: footer.php:54
+msgid "Solved questions"
+msgstr ""
+
+#: footer.php:55
+msgid "Unsolved questions"
+msgstr ""
+
+#: footer.php:92
+msgid "Powered by %s and %s"
+msgstr ""
+
+#: footer.php:94
+msgid "Crafted with &#10084; by "
+msgstr ""
+
+#: footer.php:95
+msgid "Rahul Aryan & Team"
+msgstr ""
+
+#: footer.php:97
+msgid "AskBug %s"
+msgstr ""
+
+#: footer.php:101
+msgid "&copy; %d %s"
+msgstr ""
+
+#: front-page.php:31
+msgid "What is reputation?"
+msgstr ""
+
+#: front-page.php:32
+msgid "Learn more about our reputation system and how to earn them."
+msgstr ""
+
+#: front-page.php:33
+msgid "Learn more"
+msgstr ""
+
+#: front-page.php:44 includes/admin/auto-installer.php:50
+#: includes/admin/auto-installer.php:101 includes/admin/auto-installer.php:111
+msgid "Categories"
+msgstr ""
+
+#: functions.php:93
+msgid "Primary"
+msgstr ""
+
+#: functions.php:94
+msgid "Top Right (logged in)"
+msgstr ""
+
+#: functions.php:95
+msgid "Top Right (non logged in)"
+msgstr ""
+
+#: functions.php:138
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:147
+msgid "Stats"
+msgstr ""
+
+#: functions.php:156
+msgid "Home users"
+msgstr ""
+
+#: functions.php:165
+msgid "Home sidebar"
+msgstr ""
+
+#: functions.php:174
+msgid "Ask page"
+msgstr ""
+
+#: functions.php:183
+msgid "Footer left"
+msgstr ""
+
+#: functions.php:192
+msgid "Footer middile left"
+msgstr ""
+
+#: functions.php:201
+msgid "Footer middile right"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer right"
+msgstr ""
+
+#: functions.php:219
+msgid "AnsPress Top"
+msgstr ""
+
+#: functions.php:228
+msgid "AnsPress Activities"
+msgstr ""
+
+#: header.php:93 includes/admin/auto-installer.php:62
+msgid "Ask"
+msgstr ""
+
+#: image.php:23
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return "
+"to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: image.php:39
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:40
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:69
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:71
+msgid ""
+"Comments are closed, but you can leave a trackback: <a "
+"class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" "
+"rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:73
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" "
+"href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:75
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: includes/admin/auto-installer.php:56
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/auto-installer.php:116 includes/admin/auto-installer.php:117
+msgid "Top Users"
+msgstr ""
+
+#: includes/admin/auto-installer.php:143
+msgid "Import AskBug demo data (widgets and menu)"
+msgstr ""
+
+#: includes/admin/auto-installer.php:143
+msgid "Import now!"
+msgstr ""
+
+#: includes/customizer.php:15
+msgid "AskBug Options"
+msgstr ""
+
+#: includes/customizer.php:26
+msgid "Logo"
+msgstr ""
+
+#: includes/customizer.php:35
+msgid "Hide copyright in footer"
+msgstr ""
+
+#: includes/customizer.php:45
+msgid "Main color"
+msgstr ""
+
+#: includes/customizer.php:58
+msgid "Hide background color on home"
+msgstr ""
+
+#: includes/customizer.php:67
+msgid "Hide home welcome for logged in users"
+msgstr ""
+
+#: includes/customizer.php:86
+msgid "AskBug Intro"
+msgstr ""
+
+#: includes/customizer.php:104
+msgid "Question block title"
+msgstr ""
+
+#: includes/customizer.php:113
+msgid "Question block subheading"
+msgstr ""
+
+#: includes/customizer.php:122
+msgid "Question block button text"
+msgstr ""
+
+#: includes/customizer.php:131
+msgid "Question block show button"
+msgstr ""
+
+#: includes/customizer.php:140
+msgid "Answer block title"
+msgstr ""
+
+#: includes/customizer.php:149
+msgid "Answer block subheading"
+msgstr ""
+
+#: includes/customizer.php:158
+msgid "Answer block button text"
+msgstr ""
+
+#: includes/customizer.php:167
+msgid "Answer block Show button"
+msgstr ""
+
+#: includes/customizer.php:176
+msgid "AskBug Footer Left"
+msgstr ""
+
+#: includes/customizer.php:192
+msgid "Footer Left title"
+msgstr ""
+
+#: includes/customizer.php:201
+msgid "Footer Left description"
+msgstr ""
+
+#: includes/customizer.php:210
+msgid "FaceBook Link"
+msgstr ""
+
+#: includes/customizer.php:219
+msgid "Google+ Link"
+msgstr ""
+
+#: includes/customizer.php:228
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/customizer.php:237
+msgid "GitHub Link"
+msgstr ""
+
+#: includes/hooks.php:41 includes/hooks.php:162
+msgid "Logout"
+msgstr ""
+
+#: includes/hooks.php:62
+msgid "Users page"
+msgstr ""
+
+#: includes/hooks.php:63
+msgid "Page used to display users list."
+msgstr ""
+
+#: includes/hooks.php:64 includes/hooks.php:77
+#: includes/widgets/top_users.php:52
+msgid "Users"
+msgstr ""
+
+#: includes/hooks.php:138 includes/user-metabox.php:151
+msgid "About"
+msgstr ""
+
+#: includes/hooks.php:170
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/hooks.php:210
+msgid "You do not have permission to view this page"
+msgstr ""
+
+#: includes/hooks.php:245
+msgid "Profile Updated Successfully"
+msgstr ""
+
+#: includes/hooks.php:251
+msgid "Failed to update profile"
+msgstr ""
+
+#: includes/hooks.php:318
+msgid "Successfully uploaded avatar"
+msgstr ""
+
+#: includes/hooks.php:347
+msgid "Successfully uploaded cover"
+msgstr ""
+
+#: includes/template-tags.php:34
+msgid "Post navigation"
+msgstr ""
+
+#: includes/template-tags.php:39
+msgid "Previous"
+msgstr ""
+
+#: includes/template-tags.php:40
+msgid "Next"
+msgstr ""
+
+#: includes/template-tags.php:45
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: includes/template-tags.php:49
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: includes/template-tags.php:73
+msgid "Pingback:"
+msgstr ""
+
+#: includes/template-tags.php:88
+msgid "Reply"
+msgstr ""
+
+#: includes/template-tags.php:102
+msgid "%s ago"
+msgstr ""
+
+#: includes/template-tags.php:106
+msgid ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon "
+"glyphicon-edit\"></span> Edit"
+msgstr ""
+
+#: includes/template-tags.php:110
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/template-tags.php:206
+msgid ", updated on "
+msgstr ""
+
+#: includes/template-tags.php:209
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: includes/template-tags.php:213
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/template-tags.php:488
+msgid "File cannot be uploaded, size is bigger then %d Byte"
+msgstr ""
+
+#: includes/template-tags.php:509 includes/template-tags.php:536
+msgid "There was an error while uploading avatar, please check your image"
+msgstr ""
+
+#: includes/user-metabox.php:139
+msgid "Votes"
+msgstr ""
+
+#: includes/widgets/site_stats.php:10
+msgid "(AskBug) Site Stats"
+msgstr ""
+
+#: includes/widgets/site_stats.php:11
+msgid "Shows current site stats"
+msgstr ""
+
+#: includes/widgets/site_stats.php:28
+msgid "%d Questions"
+msgstr ""
+
+#: includes/widgets/site_stats.php:29
+msgid "total questions asked"
+msgstr ""
+
+#: includes/widgets/site_stats.php:35
+msgid "%d Solved"
+msgstr ""
+
+#: includes/widgets/site_stats.php:36
+msgid "total solved questions"
+msgstr ""
+
+#: includes/widgets/site_stats.php:43
+msgid "%d Answers"
+msgstr ""
+
+#: includes/widgets/site_stats.php:44
+msgid "total answer posted"
+msgstr ""
+
+#: includes/widgets/site_stats.php:51
+msgid "%d Total users"
+msgstr ""
+
+#: includes/widgets/site_stats.php:52
+msgid "total community members"
+msgstr ""
+
+#: includes/widgets/site_stats.php:65
+msgid "Site stats"
+msgstr ""
+
+#: includes/widgets/site_stats.php:69 includes/widgets/top_users.php:69
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/top_users.php:21
+msgid "(AskBug) Top Users"
+msgstr ""
+
+#: includes/widgets/top_users.php:22
+msgid "Shows top users by selected group"
+msgstr ""
+
+#: includes/widgets/top_users.php:35
+msgid "View all users"
+msgstr ""
+
+#: includes/widgets/top_users.php:73
+msgid "Avatar:"
+msgstr ""
+
+#: includes/widgets/top_users.php:77
+msgid "Show"
+msgstr ""
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: parts/category-dropdown.php:32
+msgid "View all categories"
+msgstr ""
+
+#: parts/top-right-nonlogged.php:26
+msgid "Log in using"
+msgstr ""
+
+#: parts/top-right-nonlogged.php:43
+msgid "Enter your username"
+msgstr ""
+
+#: parts/top-right-nonlogged.php:44
+msgid "Enter your password"
+msgstr ""
+
+#: parts/top-right-nonlogged.php:47
+msgid "Rest password"
+msgstr ""
+
+#: parts/top-right-nonlogged.php:48
+msgid "New to this site? Register"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:27
+msgid "Meta"
+msgstr ""
+
+#: warning.php:75
+msgid ""
+"Please update or install AnsPress 4.0 to use AskBug theme. If AnsPress "
+"already installed make sure to activate it. If you have more questions "
+"about this, please get in touch with us at "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "AskBug"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://anspress.io/download/askbug/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"AskBug is a theme for question and answer community site based on AnsPress "
+"plugin. This theme can be used to create a big community site or a simple "
+"support site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rahul Aryan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://anspress.io/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "AnsPress Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Activities Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Login Page"
+msgstr ""
+
+#: header.php:86
+msgctxt "placeholder"
+msgid "Type and hit enter"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: header.php:86 searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: includes/template-tags.php:39
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: includes/template-tags.php:40
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr ""

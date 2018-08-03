@@ -1,0 +1,92 @@
+a {
+  color: #f35c51;
+}
+a:hover {
+  color: #f35c51;
+}
+.site-nav .btn-header-ask {
+  border-color: #f35c51;
+  color: #f35c51;
+}
+.site-nav .navbar-nav li.active > a,
+.site-nav .navbar-nav li.open > a {
+  color: #f35c51;
+}
+.ap-tab-nav li.ap-menu-logout.active a {
+  color: #f35c51;
+}
+.ap-tab-nav li.ap-menu-logout.active a i {
+  color: #f35c51;
+}
+.ap-tab-nav li.ap-menu-logout.active a a:hover {
+  background: #f35c51;
+}
+.ap-tab-nav li.ap-menu-logout.active a > a span {
+  background: #f35c51;
+}
+.site-header-cover {
+  background-color: #f4655b;
+}
+.for-answerer .btn-answer {
+  color: #f35c51;
+}
+#category-dropdown.open .dropdown-toggle {
+  color: #f35c51;
+}
+#menu-toggle {
+  color: #f35c51;
+}
+.tml input[type="text"]:hover,
+.tml input[type="password"]:hover,
+.tml input[type="text"]:focus,
+.tml input[type="password"]:focus {
+  border-color: #fab5b0;
+}
+.tml .submit > input {
+  background: #fde2e0;
+  border: 2px solid #fab5b0;
+}
+.tml .submit > input:hover {
+  border-color: #f68981;
+}
+.sticky {
+  border-color: #fab5b0;
+}
+.ap-btn-follow {
+  border-color: #f89f99;
+}
+.ap-btn-follow.active {
+  background: #fab5b0;
+}
+.border-box {
+  border-color: #f89f99;
+}
+#anspress #ap-question-sorting .ap-dropdown-toggle.active {
+  background: #f35c51;
+}
+#anspress .bootstrap-tagsinput .tag {
+  background: #f35c51;
+}
+#anspress .ap-taxo-detail .ap-tax-item-count {
+  background: #f35c51;
+}
+#anspress .ap-breadcrumbs > li a:hover {
+  color: #f35c51;
+}
+#anspress .ap-q-actions > li.ap-post-action.ap-action-select_answer > a:hover {
+  background-color: #f35c51;
+}
+#anspress .ap-answers-tab li.active a:hover {
+  background-color: #f68981;
+}
+#anspress .ap-tags-item .term-title {
+  background-color: #fbccc8;
+  border-color: #f35c51;
+}
+#anspress .ap-reputation-ref strong {
+  color: #f35c51;
+}
+#anspress .ap-users .ap-btn-follow {
+  border-color: #f35c51;
+}
+/*# sourceMappingURL=color.css.map */
