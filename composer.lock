@@ -454,7 +454,7 @@
         },
         {
             "name": "wpackagist-plugin/anspress-question-answer",
-            "version": "4.1.13",
+            "version": "4.1.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/anspress-question-answer/",
@@ -462,7 +462,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/anspress-question-answer.zip?timestamp=1533262665",
+                "url": "https://downloads.wordpress.org/plugin/anspress-question-answer.zip?timestamp=1533361598",
                 "reference": null,
                 "shasum": null
             },
@@ -494,15 +494,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.1.4"
+                "reference": "tags/2.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.1.5.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -850,7 +850,7 @@ msgstr "всего ответов оставлено"
 #: includes/widgets/site_stats.php:51
 #, php-format
 msgid "%d Total users"
-msgstr "%d Всего пользователей"
+msgstr ""
 
 #: includes/widgets/site_stats.php:52
 msgid "total community members"
