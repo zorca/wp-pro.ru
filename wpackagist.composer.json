@@ -11,6 +11,7 @@
     "wpackagist-plugin/cyr3lat": "^3.5",
     "wpackagist-plugin/wordpress-social-login": "^2.3.3",
     "wpackagist-plugin/theme-my-login": "^7.0.9",
-    "wpackagist-plugin/loco-translate":"^2.1.4"
+    "wpackagist-plugin/loco-translate":"^2.1.4",
+    "wpackagist-plugin/w3-total-cache":"^0.9.7"
   }
 }
