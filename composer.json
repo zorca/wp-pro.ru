@@ -40,7 +40,8 @@
     "wikimedia/composer-merge-plugin": "^1.4",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "mnsami/composer-custom-directory-installer": "^1.1"
+    "mnsami/composer-custom-directory-installer": "^1.1",
+    "oomphinc/composer-installers-extender": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
