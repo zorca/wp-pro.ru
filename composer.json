@@ -52,7 +52,8 @@
     },
     "merge-plugin": {
       "include": [
-        "wpackagist.composer.json"
+        "wpackagist.composer.json",
+        "wpp.composer.json"
       ],
       "recurse": true,
       "replace": false,

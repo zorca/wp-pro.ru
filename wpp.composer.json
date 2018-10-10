@@ -1,0 +1,16 @@
+{
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "https://github.com/wp-pt/wordpress-google-docs"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wp-pt/qqworld-auto-save-images"
+    }
+  ],
+  "require": {
+    "wp-pt/wordpress-google-docs":"^1.0.0",
+    "wp-pt/qqworld-auto-save-images":"^1.0.0"
+  }
+}
