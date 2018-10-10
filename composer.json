@@ -39,15 +39,17 @@
     "johnpbloch/wordpress": "4.9.8",
     "wikimedia/composer-merge-plugin": "^1.4",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "mnsami/composer-custom-directory-installer": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
   },
   "extra": {
+    "installer-types": ["wpp", "wp-pt"],
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin", "type:wpp", "type:wp-pt"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "merge-plugin": {
