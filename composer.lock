@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "623a9a3d5e03e2782c9c2077cf7d6a88",
+    "content-hash": "000a86504f651add5850152e55273756",
     "packages": [
         {
             "name": "composer/installers",
@@ -451,6 +451,58 @@
             ],
             "description": "Composer plugin to merge multiple composer.json files",
             "time": "2017-04-25T02:31:25+00:00"
+        },
+        {
+            "name": "wp-pt/qqworld-auto-save-images",
+            "version": "v1.8.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-pt/qqworld-auto-save-images.git",
+                "reference": "bb9d80398485b7edc8300ad98c548819cb55be5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-pt/qqworld-auto-save-images/zipball/bb9d80398485b7edc8300ad98c548819cb55be5d",
+                "reference": "bb9d80398485b7edc8300ad98c548819cb55be5d",
+                "shasum": ""
+            },
+            "type": "wp-pt",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x.x.x"
+                }
+            },
+            "support": {
+                "source": "https://github.com/wp-pt/qqworld-auto-save-images/tree/v1.8.5.4",
+                "issues": "https://github.com/wp-pt/qqworld-auto-save-images/issues"
+            },
+            "time": "2018-09-07T18:49:33+00:00"
+        },
+        {
+            "name": "wp-pt/wordpress-google-docs",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-pt/wordpress-google-docs.git",
+                "reference": "f14a0ef5e3a457a67f778087a97c3a1499ebf135"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-pt/wordpress-google-docs/zipball/f14a0ef5e3a457a67f778087a97c3a1499ebf135",
+                "reference": "f14a0ef5e3a457a67f778087a97c3a1499ebf135",
+                "shasum": ""
+            },
+            "type": "wp-pt",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "support": {
+                "source": "https://github.com/wp-pt/wordpress-google-docs/tree/v1.0.8",
+                "issues": "https://github.com/wp-pt/wordpress-google-docs/issues"
+            },
+            "time": "2018-09-25T16:41:53+00:00"
         },
         {
             "name": "wpackagist-plugin/anspress-question-answer",
