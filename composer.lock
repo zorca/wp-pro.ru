@@ -619,6 +619,26 @@
             "homepage": "https://wordpress.org/plugins/anspress-question-answer/"
         },
         {
+            "name": "wpackagist-plugin/auto-upload-images",
+            "version": "3.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/auto-upload-images/",
+                "reference": "tags/3.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/auto-upload-images.3.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/auto-upload-images/"
+        },
+        {
             "name": "wpackagist-plugin/cyr3lat",
             "version": "3.5",
             "source": {
